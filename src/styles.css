@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  font-size: 12x;
+}
+
+.tile-text {
+  font-size: 9px;
+  fill: black;
+}
+
+#tooltip {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 175px;
+  height: 55px;
+  padding: 2px;
+  font-size: 12px;
+  background: lightsteelblue;
+  border-radius: 2px;
+  pointer-events: none;
+  opacity: 0;
+}
